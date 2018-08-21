@@ -43,6 +43,10 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         return 0;
     }
 
+    public void setList(List<Trip> list){
+        this.list = list;
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.textView)
